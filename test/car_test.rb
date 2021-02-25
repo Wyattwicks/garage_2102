@@ -4,7 +4,7 @@ require './lib/car'
 class CarTest < Minitest::Test
   def test_car_exists_and_has_attributes
     car_1 = Car.new({description: 'Green Ford Mustang', year: '1967'})
-    # require "pry";binding.pry
+     # require "pry";binding.pry
 
     assert_instance_of Car, car_1
     assert_equal "Ford", car_1.make
